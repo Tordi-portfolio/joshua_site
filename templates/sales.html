@@ -1,0 +1,27 @@
+{% extends "web/base.html" %}
+
+{% block title %}Sales - Your Business{% endblock %}
+
+{% block content %} 
+  <div class="max-w-6xl mx-auto py-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Latest Sales</h2>
+    <p class="text-gray-600 mb-8">
+      Discover unbeatable deals on our best-selling products and services. Act now while stocks last!
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-blue-600 mb-2">Product A</h3>
+        <p class="text-gray-600">Get 30% off on Product A. Perfect for businesses that need reliable solutions fast.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-blue-600 mb-2">Service B</h3>
+        <p class="text-gray-600">Premium support package at discounted rates for new clients this month.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-blue-600 mb-2">Bundle Deal</h3>
+        <p class="text-gray-600">Combine our top services for 40% less. A limited-time offer.</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
